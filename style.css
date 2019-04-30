@@ -3,5 +3,19 @@
   transition: box-shadow 1s;
 }
 .card:hover {
-  box-shadow: 0 0 3px #515151;
+  box-shadow: 5px 5px 3px #646363;
+}
+
+.btn {
+  box-shadow: none;
+  border: none !important;
+  /* background-color: none; */
+  transition: color box-shadow background-color 1s;
+}
+.btn:hover {
+  border-radius: 10px;
+  background-color: blue !important;
+  box-shadow: 5px 5px 3px #646363;
+  color: white !important;
+  border: none !important;
 }
